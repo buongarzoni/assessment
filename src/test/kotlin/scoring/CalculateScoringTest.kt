@@ -7,7 +7,8 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import kotlin.test.Test
 
 class CalculateScoringTest {
-    private val calculateScoring = CalculateScoring()
+    //private val calculateScoring = CalculateScoring()
+    private val calculateScoring = CalculateScoringJava()
 
     @Test
     fun `Must return HIGH Accuracy when 2 users have the same Id`() {
